@@ -17,7 +17,7 @@ If you use this code, please cite:
 ```bibtex
 @inproceedings{poulenard2026knowledge,
   title     = {Knowledge-Graph Based Augmentation versus Retrieval Augmented Generation for Cultural-Related Question Answering},
-  author    = {Poulenard, Pablo and Karmim, Yannis and Barri{\`e}re, Valentin},
+  author    = {Pablo Poulenard and Yannis Karmim and Valentin Barrière},
   booktitle = {Proceedings of the EMNLP 2026 Workshop on ORACLE},
   year      = {2026},
   url       = {https://arxiv.org/abs/2609.18317}, 
