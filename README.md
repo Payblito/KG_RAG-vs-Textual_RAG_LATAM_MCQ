@@ -6,7 +6,8 @@ Large language models (LLMs) suffer from a long-tail deficit: culturally specifi
 
 ## Paper
 
-Accepted at EMNLP ORACLE workshop 2026. Camera-ready version available : [arXiv](https://arxiv.org/abs/2609.18317)
+Accepted at EMNLP ORACLE workshop 2026. 
+Camera-ready version available : [arXiv](https://arxiv.org/abs/2609.18317)
 
 ## Setup
 
