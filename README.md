@@ -4,10 +4,25 @@
 
 Large language models (LLMs) suffer from a long-tail deficit: culturally specific facts, particularly those concerning underrepresented regions such as Latin America, appear too rarely in pretraining corpora to be reliably memorized. Retrieval-Augmented Generation (RAG) addresses this by grounding generation in external text, but structured alternatives such as Knowledge Graphs (KGs) offer tighter control over what enters the context, along with potential gains in explainability and updatability. We benchmark Graph-RAG against standard RAG on LatamQA, a culturally grounded multiple-choice dataset spanning eight thematic categories. The graphs are built end-to-end from Wikipedia articles with KGGen, a recent open-domain extractor, without manual curation in our main setting. G-Retriever is competitive with RAG and reduces the error of the base LLM by 72\% with a standard KG and 78\% with a benchmark-aware variant, the gap to RAG narrowing further as the graph is oriented toward task-relevant content. The trained projection transfers zero-shot to Portuguese without target-language fine-tuning, indicating multilingual reach.
 
-## Paper
+## Paper 
 
-Accepted at EMNLP ORACLE workshop 2026. 
-Camera-ready version available : [arXiv](https://arxiv.org/abs/2609.18317)
+Official implementation of **"Knowledge-Graph Based Augmentation versus Retrieval Augmented Generation for Cultural-Related Question Answering"**, accepted at the EMNLP 2026 ORACLE Workshop.
+
+[![arXiv](https://img.shields.io/badge/arXiv-2609.18317-b31b1b.svg)](https://arxiv.org/abs/2609.18317)
+
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@inproceedings{poulenard2026knowledge,
+  title     = {Knowledge-Graph Based Augmentation versus Retrieval Augmented Generation for Cultural-Related Question Answering},
+  author    = {Poulenard, Pablo and Karmim, Yannis and Barri{\`e}re, Valentin},
+  booktitle = {Proceedings of the EMNLP 2026 Workshop on ORACLE},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2609.18317}, 
+}
+```
 
 ## Setup
 
@@ -82,5 +97,3 @@ Reference: [G-Retriever: Retrieval-Augmented Generation for Textual Graph Unders
 ├── environment.yml                   # Conda environment spec
 └── requirements.txt                  # Pip dependencies
 ```
-
-## How to cite
